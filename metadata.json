@@ -1,0 +1,6 @@
+{
+  "name": "OnlyFounders",
+  "description": "The invite-only network for proven builders, founders, operators, and startup leaders.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
