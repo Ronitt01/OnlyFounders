@@ -92,7 +92,7 @@ export async function verifyApplication(req: Request, res: Response) {
     Provide the outcome STRICTLY in the requested JSON schema format.`;
 
     const response = await aiClient.models.generateContent({
-      model: "gemini-3.5-flash",
+      model: "gemini-2.5-flash",
       contents: prompt,
       config: {
         systemInstruction,
